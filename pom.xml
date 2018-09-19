@@ -18,4 +18,14 @@
   <build>
     <finalName>webapp1</finalName>
   </build>
+<distributionManagement>
+  <snapshotRepository>
+    <id>snapshotrepo</id>
+    <url>http://18.218.168.5:8888/nexus/content/repositories/snapshotrepo</url>
+  </snapshotRepository>
+<repository>
+    <id>releaserepo</id>
+    <url>http://18.218.168.5:8888/nexus/content/repositories/releaserepo</url>
+  </repository>
+</distributionManagement>
 </project>
