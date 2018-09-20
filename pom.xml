@@ -21,11 +21,11 @@
 <distributionManagement>
   <snapshotRepository>
     <id>snapshotrepo</id>
-    <url>http://18.218.168.5:8888/nexus/content/repositories/snapshotrepo</url>
+    <url>http://18.217.141.164:8899/nexus/content/repositories/snapshotrepo</url>
   </snapshotRepository>
 <repository>
     <id>releaserepo</id>
-    <url>http://18.218.168.5:8888/nexus/content/repositories/releaserepo</url>
+    <url>http://18.217.141.164:8899/nexus/content/repositories/releaserepo</url>
   </repository>
 </distributionManagement>
 </project>
